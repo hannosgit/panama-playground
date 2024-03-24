@@ -16,13 +16,23 @@ C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\Windows.h
 G:\Downloads\openjdk-22-jextract+3-13_windows-x64_bin.tar\jextract-22\bin\jextract --output src/main/java -t at.hannos.windows "C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\Windows.h"
 ```
 
+````
+G:\Downloads\openjdk-22-jextract+3-13_windows-x64_bin.tar\jextract-22\bin\jextract --output src/main/java -t at.hannos.pgquery "G:\c_projects\libpg_query\pg_query.h"
+````
+
 # Running
 
 Run with VM option to get rid of warning
 
 ````
 --enable-native-access=ALL-UNNAMED
+-Djava.library.path=G:\java_projects\panama-playground
 ````
+
+# PGQuery
+
+DLLs obtained from https://github.com/premium-minds/sonar-postgres-plugin/tree/master/src/main/resources/win32-x86-64
+
 
 # Links
 
