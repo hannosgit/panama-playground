@@ -7,7 +7,7 @@ public class App {
     public static void main(String[] args) {
         System.out.println("Program started!");
 
-        pgQueryExample();
+        windowsExample();
     }
 
     private static void windowsExample(){
@@ -16,8 +16,6 @@ public class App {
         WindowsApi.createDirectory(path);
     }
 
-    private static void pgQueryExample(){
-        PGQuery.parseQuery("SELECT * FROM foo;");
-    }
+
 
 }
